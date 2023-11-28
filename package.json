@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lib-utils-ts": "^2.0.4-stable",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
+    "tailwind-merge": "^2.0.0",
     "yarn": "^1.22.21"
   },
   "devDependencies": {

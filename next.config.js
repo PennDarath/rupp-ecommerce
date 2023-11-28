@@ -1,4 +1,20 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  reactStrictMode: true,
 
-module.exports = nextConfig
+  images: {
+    domains: [
+      "localhost",
+      "i.pinimg.com",
+      "fakestoreapi.com",
+      "cdn-amz.woka.io",
+      "www.apple.com",
+      "i.ebayimg.com",
+      "encrypted-tbn0.gstatic.com",
+      "media.wired.com",
+      "img.global.news.samsung.com",
+    ],
+  },
+};
+
+module.exports = nextConfig;
